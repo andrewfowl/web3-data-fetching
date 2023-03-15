@@ -1,7 +1,10 @@
 {
-  "repository": "https://github.com/vercel/examples.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewfowl/web3-data-fetching.git"
+  },
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,11 +12,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@vercel/examples-ui": "^1.0.4",
+    "@vercel/examples-ui": "^1.0.5",
     "ethers": "^5.5.4",
-    "next": "12.1.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@types/node": "17.0.14",
@@ -24,5 +27,18 @@
     "postcss": "^8.4.6",
     "tailwindcss": "^3.0.18",
     "typescript": "4.5.5"
-  }
+  },
+  "name": "web3-data-fetching",
+  "description": "--- name: Web3 Data Fetching slug: web3-data-fetching description: Smart contracts contain relevant information to applications built on top of blockchains that can run the Ethereum Virtual Machine. Some of the information in these contracts can be exposed in the form of View functions that do not need gas or fees to be executed. Now we will explore how to get that information in Next.js. framework: Next.js useCase: Documentation css: Tailwind deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/web3-data-fetching&project-name=web3-data-fetching&repository-name=web3-data-fetching demoUrl: https://web3-data-fetching.vercel.app/ ---",
+  "bugs": {
+    "url": "https://github.com/vercel/examples/issues"
+  },
+  "homepage": "https://github.com/vercel/examples#readme",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": "Kaiju"
 }
